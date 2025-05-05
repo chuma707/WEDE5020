@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+/* Navbar */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-links a:hover, .nav-links .active {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact-container {
+    margin-top: 80px;
+    padding: 40px;
+}
+.contact-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+}
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: gray;
+}
+
+/* Contact Info */
+.contact-info {
+    width: 40%;
+}
+.social-links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px;
+    background: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.social-links a:hover {
+    background: gray;
+}
+
+/* Google Maps */
+.map {
+    margin: 40px 0;
+}
+iframe {
+    border-radius: 10px;
+}
+
+/* FAQ */
+.faq {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+.faq-item {
+    margin-bottom: 10px;
+}
